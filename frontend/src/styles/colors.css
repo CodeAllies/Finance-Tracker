@@ -1,0 +1,34 @@
+:root {
+  --primary: #ffbf00;
+  --accent: #f2cf7e;
+  --light: #ffe642;
+  --danger: #ff7900;
+
+  /* Text variants */
+  --text-dark: #333;
+  --text-light: #fff;
+  --bg-body: #fafafa;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+.bg-accent {
+  background-color: var(--accent) !important;
+}
+.bg-light-yellow {
+  background-color: var(--light) !important;
+}
+.bg-danger {
+  background-color: var(--danger) !important;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+.text-accent {
+  color: var(--accent) !important;
+}
+.text-danger {
+  color: var(--danger) !important;
+}
