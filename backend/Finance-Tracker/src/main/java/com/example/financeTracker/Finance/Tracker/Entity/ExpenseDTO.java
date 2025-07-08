@@ -1,8 +1,10 @@
-package com.Tracker.expenseTracker.Entity;
+package com.example.financeTracker.Finance.Tracker.Entity;
 
 import java.time.LocalDate;
 
 public class ExpenseDTO {
+
+    private int expenseId;
 
     private double amount;
 
@@ -33,6 +35,14 @@ public class ExpenseDTO {
 
     public void setCategoryId(int categoryId) {
         this.categoryId = categoryId;
+    }
+
+    public int getExpenseId() {
+        return expenseId;
+    }
+
+    public void setExpenseId(int expenseId) {
+        this.expenseId = expenseId;
     }
 }
 

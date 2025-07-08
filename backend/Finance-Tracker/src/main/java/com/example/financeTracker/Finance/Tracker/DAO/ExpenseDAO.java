@@ -1,6 +1,7 @@
-package com.Tracker.expenseTracker.DAO;
+package com.example.financeTracker.Finance.Tracker.DAO;
 
-import com.Tracker.expenseTracker.Entity.Expense;
+import com.example.financeTracker.Finance.Tracker.Entity.Expense;
+
 import java.util.*;
 
 public interface ExpenseDAO {

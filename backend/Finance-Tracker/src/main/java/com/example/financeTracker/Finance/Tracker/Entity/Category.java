@@ -1,4 +1,5 @@
-package com.Tracker.expenseTracker.Entity;
+package com.example.financeTracker.Finance.Tracker.Entity;
+
 
 import jakarta.persistence.*;
 

@@ -1,6 +1,7 @@
-package com.Tracker.expenseTracker.DAO;
+package com.example.financeTracker.Finance.Tracker.DAO;
 
-import com.Tracker.expenseTracker.Entity.Expense;
+
+import com.example.financeTracker.Finance.Tracker.Entity.Expense;
 import jakarta.persistence.EntityManager;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
